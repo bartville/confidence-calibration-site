@@ -1,0 +1,186 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Confidence Calibrator - An Unsupervised Tool for Mobile Robot Calibration</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-select.css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Resale Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->	
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-select.js"></script>
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
+
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link href="css/jquery.uls.css" rel="stylesheet"/>
+<link href="css/jquery.uls.grid.css" rel="stylesheet"/>
+<link href="css/jquery.uls.lcd.css" rel="stylesheet"/>
+<!-- Source -->
+<script src="js/jquery.uls.data.js"></script>
+<script src="js/jquery.uls.data.utils.js"></script>
+<script src="js/jquery.uls.lcd.js"></script>
+<script src="js/jquery.uls.languagefilter.js"></script>
+<script src="js/jquery.uls.regionfilter.js"></script>
+<script src="js/jquery.uls.core.js"></script>
+<script>
+			$( document ).ready( function() {
+				$( '.uls-trigger' ).uls( {
+					onSelect : function( language ) {
+						var languageName = $.uls.data.getAutonym( language );
+						$( '.uls-trigger' ).text( languageName );
+					},
+					quickList: ['en', 'hi', 'he', 'ml', 'ta', 'fr'] //FIXME
+				} );
+			} );
+		</script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><span>Confidence</span> <spen>Calibrator</spen></a>
+			</div>
+		</div>
+		</div>
+	</div>
+	  <div class="container">  
+	<div class="main-banner banner text-center">
+  
+			<h1>an Unsupervised Calibration Tool for Mobile Platforms</h1>
+	  </div>
+	</div>
+		<!-- content-starts-here -->
+		<div class="content">
+			<div class="categories">
+				<div class="container">
+					<div class="col-md-2 focus-grid">
+						<a href="about.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-info"></i></div>
+									<h4 class="clrchg">About</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="https://bitbucket.org/bartdc/confidence_calibrator">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-git"></i></div>
+									<h4 class="clrchg"> Download</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="tutorial.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-space-shuttle"></i></div>
+									<h4 class="clrchg">Tutorial</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					<div class="col-md-2 focus-grid">
+						<a href="support.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-life-ring"></i></div>
+									<h4 class="clrchg">Support</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					<div class="col-md-2 focus-grid">
+						<a href="publication.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-file"></i></div>
+									<h4 class="clrchg">Publications</h4>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-2 focus-grid">
+						<a href="media.html">
+							<div class="focus-border">
+								<div class="focus-layout">
+									<div class="focus-image"><i class="fa fa-cloud"></i></div>
+									<h4 class="clrchg">Media</h4>
+								</div>
+							</div>
+						</a>
+					</div>	
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+		<!-- Publications -->
+		  <div class="container">
+			<center>
+				<h7> Publications </h7>
+			</center>
+			<h2>Conferences</h2>
+			<div class="publication">
+			<ul style="list-style-type:circle">
+			  <li>Maurilio Di Cicco, Bartolomeo Della Corte, Giorgio Grisetti. <b>"Unsupervised Calibration of Wheeled Mobile Platforms"</b>. To Appear in Proc. of the International Conference on Robotics and Automation (ICRA), 2016, Stockholm. <a href="articles/2016-icra-calibration.pdf">[pdf]</a></li>
+			</ul>
+			</div>
+		 </div>
+
+
+		<!--footer section start-->		
+		<footer>
+			<div class="footer-bottom text-center">
+			<div class="container">
+				<div class="copyrights">
+					<p> © 2016 ConfidenceCalibrator. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a>, modified by Bartolomeo Della Corte</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		</footer>
+        <!--footer section end-->
+</body>
+</html>
